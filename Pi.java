@@ -1,8 +1,7 @@
 public class Pi {
     private static boolean Kruh (double a, double b, double polomer) {
         return polomer * polomer >= a * a + b * b;
-        // obsah kruhu
-    }      
+    }           
     public static void main(String[] args) {
         double polomer = 1;
         int vKruhu = 0;
@@ -18,4 +17,4 @@ public class Pi {
           double pi = ((double) vKruhu / (double) dohromady ) * 4;
           System.out.printf("Pi = %s" , pi);
     }
-}      //Tento zpùsob se mi zdá dost nepøesnı
+}      //Tento zpÅ¯sob se mi zdÃ¡ dost nepÅ™esnÃ½
